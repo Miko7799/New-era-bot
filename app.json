@@ -1,0 +1,21 @@
+{
+  "name": "Luna-Bot",
+  "description": "Jangan lupa beli premium (≧▽≦)",
+  "repository": "https://github.com/Miko7799/New-era-bot",
+  "logo": "https://telegra.ph/file/4493faaf16378c516480b.jpg",
+  "keywords": ["java", "bot", "whatsapp-bot", "whatsapp-automation"],
+  "buildpacks": [
+  {
+    "url": "heroku/nodejs"
+  },
+  {
+    "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+  },
+  {
+    "url": "https://github.com/fewerandfaster/heroku-buildpack-imagemagick.git"
+  },
+  {
+    "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+  }    
+ ]
+}
